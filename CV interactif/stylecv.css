@@ -1,0 +1,99 @@
+
+
+
+.container-fluid {
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+}
+
+/* .background2:hover{
+	background-image: url("background2blanc.jpg");	
+} */
+
+
+.background2 {
+color: white;
+	font-size: 18px;
+	font-family: Symbol, sans-serif;
+	padding-top: 6rem;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition : all 1s ease-in;
+	background-image: url("background2n.jpg");
+	height: 60rem;
+
+
+	
+
+}
+
+.background3 {
+	color: white;
+		font-size: 18px;
+		font-family: Symbol, sans-serif;
+		padding-top: 6rem;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition : all 1s ease-in;
+		background-image: url("background3n.jpg");
+		height: 70rem;
+	
+		
+		
+	
+	}
+
+	.background4 {
+		color: white;
+			font-size: 18px;
+			font-family: Symbol, sans-serif;
+			padding-top: 6rem;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition : all 1s ease-in;
+			background-image: url("background4n.jpg");
+			height: 10rem;
+		
+			
+			
+		
+		}
+
+  @media (max-width: 768px) {
+	.background2, .background3, .background4  {
+	  background-attachment: scroll;
+	}
+
+	.background2 {
+			padding-top:6rem;
+	}
+
+	
+  }
+  
+  
+  span{
+	padding:2rem;
+	font-size: 1.4em;
+	background: rgb(0, 0, 0);
+	color:white;
+	font-family: 'Trebuchet MS';
+}
+
+
+
+.col-md-12 {
+margin-top: 20rem;
+
+}
+
+.fleche {
+	text-align: center;
+	margin-top: 18%;
+}
+
+

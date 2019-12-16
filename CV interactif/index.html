@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Bienvenue sur le CV intéractif de Frédéric ALLEGRET</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylecv.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="#accueil">Home</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#profil">Profil</a>
+						</li>
+
+
+
+						<li class="nav-item">
+							<a class="nav-link" href="#competences">Compétences</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#portofolio">Portofolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+
+
+
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+					</form>
+
+			</nav>
+		</div>
+
+
+
+		<div class="background2" id="accueil">
+			<div class="h-100 w-100 d-inline-block">
+				<div class="col-md-12">
+					<p class="text-center">
+						<span >Frédéric ALLEGRET Développeur web</span>
+						
+					
+					</p>
+				</div>
+				<div class="fleche">
+					<p>
+						<a href="#profil">
+							<img src="fleche.png" alt="fleche pour descendre" width=5%>
+						</a>
+					</p>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="row mr-0" id="profil">
+			<div class="col-md-3 pl-0 ml-5 mt-5 mb-2 text-center">
+				<p><img class="rounded-circle" src="photoc.jpg" alt="photo de frédéric ALLEGRET" width=45% />
+				</p>
+				<h2>Frédéric ALLEGRET</h2>
+			</div>
+			<div class="col-md-4 offset-md-2 mt-5 text-center">
+				<h5> Développeur web </h5>
+				<p> Après plusieurs années d’expérience dans le secteur de l’environnement, j’ai souhaité me reconvertir
+					dans la programmation et le développement web. J’effectue actuellement un DUT informatique à IUT de
+					Gradignan (en 1 an) qui me permettra d’acquérir de nombreuses connaissances et compétences dans le
+					domaine.
+					Très motivé et rigoureux, je suis actuellement à l'écoute d'offre de stage (juin 2020) et à l'issue
+					de ma formation d'offre d'emploi.</p>
+			</div>
+
+
+
+		</div>
+
+		<div class="background3" id="competences">
+
+			<div class=" h-25 row mr-0">
+				<div class="col-md-4 offset-md-2 mr-2 text-center bg-dark">
+					<h5>Compétences</h5>
+				</div>
+			</div>
+			<div class=" h-25 row mr-0">
+				<div class="col-md-4 offset-md-7 mt-4  text-center bg-dark">
+					<h5> Diplomes </h5>
+
+				</div>
+			</div>
+
+			<div class=" h-25 row mr-0">
+				<div class="col-md-4 offset-md-4 mt-5 mr-2 text-center bg-dark">
+					<h5>Expériences</h5>
+				</div>
+			</div>
+			<div class=" h-25 row mr-0">
+				<div class="col-md-6 offset-md-3 mt-2 mb-2 bg-grey text-center">
+					<p>Portofolio</p>
+					
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row h-100 mr-0 ml-4 mt-2" id="contact">
+
+
+			<form class="col-md-4 offset-md-4 text-center">
+
+				<h5>Contact</h5>
+				<div class="row">
+					<div class="col-md-6 text-left">
+						<label for="Nom">Nom :</label>
+						<input type="text" id="Nom" required class="form-control" placeholder="Nom">
+					</div>
+					<div class="col-md-6 text-left">
+						<label for="Prénom"> Prénom :</label>
+						<input type="text" id="Prénom" required class="form-control" placeholder="Prénom">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 mt-1 text-left">
+						<label for="tel"> Tél :</label>
+						<input type="tel" id="tel" required class="form-control" placeholder="Numéro de téléphone">
+
+					</div>
+
+
+					<div class="col-md-6 mt-1 text-left">
+						<label for="Email"> Email :</label>
+						<input type="email" id="Email" required class="form-control" placeholder="Email">
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 mt-1 text-left">
+						<label for="objet"> Objet :</label>
+						<input type="objet" id="objet" class="form-control" placeholder="Objet">
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 mt-1 text-left">
+
+						<label for="message">Message :</label>
+						<textarea class="form-control" required rows="3" placeholder="Message" id="message"></textarea>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 mt-3 mb-3 text-center">
+						<button type="submit" class="btn btn-secondary btn-lg">Envoyer</button>
+						
+					</div>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="background4">
+
+
+
+		</div>
+
+
+	</div>
+
+
+</body>
+
+
+
+
+
+<!-- <div class="row">
+				<div class="col-md-9">
+						<p class="rectangle1"></p>
+					</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-3">
+				<p><img class="rounded-circle " src="photo.jpg" alt="photo de frédéric ALLEGRET" width=45% />
+				</p>
+				<h2>Frédéric ALLEGRET</h2>
+			</div>
+			<div class="col-md-7 mt-2 text-center">
+				<h5> Profil </h5>
+				<p> Après plusieurs années d’expérience dans le secteur de l’environnement, j’ai souhaité me reconvertir dans la programmation et le développement web. J’effectue actuellement un DUT informatique à IUT de Gradignan (en 1 an) qui me permettra d’acquérir de nombreuses connaissances et compétences dans le domaine. 
+						Très motivé et rigoureux, je suis actuellement à l'écoute d'offre de stage (juin 2020) et à l'issue de ma formation d'offre d'emploi.</p>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-9 offset-md-3">
+				<p class="rectangle2"></p>
+			</div>
+		</div> -->
+
+
+
+
+
+
+<html>
