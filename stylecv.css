@@ -1,19 +1,20 @@
 
+ @media (min-width: 768px) {
 
+	.d-block {
+		height: 30rem;
+	}
+	 
 
+	
 .container-fluid {
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
 }
 
-/* .background2:hover{
-	background-image: url("background2blanc.jpg");	
-} */
-
-
 .background2 {
-color: white;
+    color: white;
 	font-size: 18px;
 	font-family: Symbol, sans-serif;
 	padding-top: 6rem;
@@ -22,12 +23,14 @@ color: white;
 	background-size: cover;
 	transition : all 1s ease-in;
 	background-image: url("background2n.jpg");
-	height: 60rem;
+	height: 65rem;
 
 
 	
 
 }
+
+
 
 .background3 {
 	color: white;
@@ -39,7 +42,7 @@ color: white;
 		background-size: cover;
 		transition : all 1s ease-in;
 		background-image: url("background3n.jpg");
-		height: 70rem;
+		height: 100rem;
 	
 		
 		
@@ -63,37 +66,211 @@ color: white;
 		
 		}
 
+		#nom{
+			padding:2rem;
+			font-size: 1.6em;
+			background: black;
+			color:white;
+			font-family: 'Trebuchet MS';
+			animation-duration: 3s;
+			animation-name: animNom;
+			animation-delay: 1s;
+			opacity: 0;
+			animation-fill-mode:forwards;
+
+			
+		}
+		
+		
+		 
+		@keyframes animNom {
+			from {
+				opacity: 0;
+			}
+		  
+			to {
+				opacity: 1;
+				
+			}
+		  }
+		
+		#presentation {
+		margin-top: 20rem;
+		
+			
+		
+		}
+		
+		.fleche {
+			text-align: center;
+			margin-top: 11%;
+			
+			
+		}
+
+        .flechette:hover {
+	     width: 8%;
+
+		}
+		
+		.flechette {
+			width: 5%;
+			transition-property: width height;
+			transition-duration: 2s;
+		}
+
+		#bloc:hover {
+
+        box-shadow: inset 0 0 0 1rem #f8fcff;
+
+		}
+		#bloc {
+			border-radius:10%;
+			
+	
+			}
+
+			#bla {
+			animation-duration: 5s;
+			animation-name: animBla;
+			animation-fill-mode: forwards;
+
+			}
+
+
+			@keyframes animBla {
+				from {
+				  margin-top: 25%;
+				 
+				}
+			  
+				to {
+				  margin-top: 0%;
+				  
+				}
+			  }
+
+	}		
+
   @media (max-width: 768px) {
-	.background2, .background3, .background4  {
-	  background-attachment: scroll;
-	}
+	
 
 	.background2 {
 			padding-top:6rem;
 	}
+	#presentation {
+		margin-top: 10rem;
+		
+		}
+		
+		.container-fluid {
+			padding: 0%;
+			margin: 0%;
+			width: 100%;
+		}
+		
+		.background2 {
+			color: white;
+			font-size: 18px;
+			font-family: Symbol, sans-serif;
+			padding-top: 6rem;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition : all 1s ease-in;
+			background-image: url("background2n.jpg");
+			height: 65rem;
+		
+		
+			
+		
+		}
+		
+		.background3 {
+			color: white;
+				font-size: 18px;
+				font-family: Symbol, sans-serif;
+				padding-top: 6rem;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+			
+				background-image: url("background3n.jpg");
+				height: 70rem;
+			
+				
+				
+			
+			}
+		
+			.background4 {
+				color: white;
+					font-size: 18px;
+					font-family: Symbol, sans-serif;
+					padding-top: 6rem;
+					background-attachment: fixed;
+					background-repeat: no-repeat;
+					background-size: cover;
+					
+					background-image: url("background4n.jpg");
+					height: 10rem;
+				
+					
+					
+				
+				}
+		
+				#nom{
+					padding:2rem;
+					font-size: 1.6em;
+					background: black;
+					color:white;
+					font-family: 'Trebuchet MS';
+					animation-duration: 3s;
+					animation-name: animNom;
+					animation-delay: 1s;
+					opacity: 0;
+					animation-fill-mode:forwards;
+		
+					
+				}
+				
+				
+				 
+				@keyframes animNom {
+					from {
+						opacity: 0;
+					}
+				  
+					to {
+						opacity: 1;
+						
+					}
+				  }
+				
+				.fleche {
+					text-align: center;
+					margin-top: 40%;
+					
+					
+					
+				}
 
-	
+				.flechette:hover {
+					width: 15%;
+		   
+				   }
+				   
+				   .flechette {
+					   width: 10%;
+					   transition-property: width height;
+					   transition-duration: 2s;
+				   }
+		   
+			
+				 
   }
   
   
-  span{
-	padding:2rem;
-	font-size: 1.4em;
-	background: rgb(0, 0, 0);
-	color:white;
-	font-family: 'Trebuchet MS';
-}
-
-
-
-.col-md-12 {
-margin-top: 20rem;
-
-}
-
-.fleche {
-	text-align: center;
-	margin-top: 18%;
-}
 
 
