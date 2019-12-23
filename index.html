@@ -14,7 +14,7 @@
 
 
 	<link rel="stylesheet" href="stylecv.css">
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="./doc/favicon.ico">
 
 </head>
 
@@ -24,6 +24,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 	crossorigin="anonymous"></script>
+
+	<script>
+
+	
+	</script>
 
 <body data-spy="scroll" data-target=".navbar">
 	<div class="container-fluid">
@@ -81,7 +86,7 @@
 				<div class="fleche">
 					<p>
 						<a href="#profil">
-							<img class="flechette" src="fleche.png" alt="fleche pour descendre">
+							<img class="flechette" src="./img/fleche.png" alt="fleche pour descendre">
 						</a>
 					</p>
 				</div>
@@ -92,7 +97,7 @@
 
 		<div class="row mr-0 pt-4 pb-4" id="profil">
 			<div class="col-md-3 pl-0 ml-5 mt-5 mb-2 text-center">
-				<p><img class="rounded-circle" src="photoc.jpg" alt="photo de frédéric ALLEGRET" />
+				<p><img class="rounded-circle" src="./img/photoc.jpg" alt="photo de frédéric ALLEGRET" />
 				</p>
 				<h2>Frédéric ALLEGRET</h2>
 			</div>
@@ -112,23 +117,67 @@
 
 		<div class="background3" id="competences">
 
-			<div class=" h-25 row mr-0">
+			<div class="row mr-0">
 				<div class="col-md-4 offset-md-2 p-4 text-center bg-dark" id="bloc">
 					<h5>Compétences</h5>
-					<p class="bla">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui adipisci nobis est
-						nostrum
-						ipsa laboriosam id illum dignissimos corporis natus ut dolores voluptatibus, voluptate saepe sed
-						quas accusantium et praesentium.</p>
+					<div class="row" id="bla">
+						<h6>Langage programmation</h6>
+						<p>
+							<img class="imgWeb" src="./img/logoWeb.png" alt="logo Langage web">
+							<img class="imgJava"src="./img/logoJava.png" alt="logo Langage Java">
+							<img class="imgC" src="./img/logoC.png" alt="logo Langage C#">
+						</p>
+					
+					</div>
+					<div class="row" id="bla">
+							<h6>Frameworks</h6>
+							<p>
+								<img class="imgBootstrap"  src="./img/logoBootstrap.png" alt="logo Bootstrap" >
+								<img class="imgJavaEE" src="./img/logoJavaEE.png" alt="logo JAVA EE">
+								<img class="imgASP" src="./img/logoASP.png" alt="logo ASP.net">
+							</p>
+						
+						</div>
+						<div class="row" id="bla">
+								<h6>Base de données</h6>
+								<p>
+									<img class="imgOracle" src="./img/logoOracle.png" alt="logo Oracle database">
+									<img class="imgSQL" src="./img/logoSQL.png" alt="logo mySQL" >
+								
+								</p>
+							
+							</div>
+							<div class="row" id="bla">
+									<h6> Langages et Méthodes de modélisation</h6>
+									<p>
+										<img class="imgAgile" src="./img/logoAgile.png" alt="logo méthode Agile">
+										<img class="imgUML" src="./img/logoUml.png" alt="logo UML">
+									
+									</p>
+								
+								</div>
 
 				</div>
 			</div>
-			<div class=" h-25 row mr-0">
-				<div class="col-md-4 offset-md-7 mt-4 mb-5 p-4 text-center bg-dark" id="bloc1">
+			<div class="row mr-0">
+				<div class="col-md-4 offset-md-7 mt-4 mb-5 p-4 bg-dark" id="bloc1">
 					<h5> Diplomes </h5>
-					<p class="bla">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui adipisci nobis est
-						nostrum
-						ipsa laboriosam id illum dignissimos corporis natus ut dolores voluptatibus, voluptate saepe sed
-						quas accusantium et praesentium.</p>
+					<div class="row" id="bla">
+							<p>
+								<img class="imgBordeaux" src="./img/logoUBordeaux.gif" alt="logo université bordeaux">
+								<span> 2020 : DUT informatique (En cours)</span>
+							</p>
+							<p>
+									<img class="imgEncpb" src="./img/logoEncpb.gif" alt="logo encp">
+									<span> 2010 : BTS Métiers de l'eau</span>
+							</p>
+							<p>
+									<img class="imgLef" src="./img/logoLef.png" alt="logo lycée en Foret">
+									<span> 2007 : BAC STL</span>
+							</p>
+
+						
+						</div>
 
 				</div>
 			</div>
@@ -149,13 +198,13 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<a href=""><img class="d-block w-100" src="tron.jpg" alt="First slide"></a>
+								<a href=""><img class="d-block w-100" src="./img/tron.jpg" alt="First slide"></a>
 							</div>
 							<div class="carousel-item">
-								<img class="d-block w-100" src="gol.jpg" alt="Second slide">
+								<img class="d-block w-100" src="./img/gol.jpg" alt="Second slide">
 							</div>
 							<div class="carousel-item">
-								<img class="d-block w-100" src="cv.jpg" alt="Third slide">
+								<img class="d-block w-100" src="./img/cv.jpg" alt="Third slide">
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -234,9 +283,29 @@
 		</div>
 
 		<div class="background4">
-			<footer>
+			<footer class=" h-100 row mr-0">
 
-			</footer>
+	<div class="col-md-12 text-center p-4">
+			<a href="" class="footer"> SUIVEZ MOI : </a>
+			<a href="https://www.linkedin.com/in/fallegret" class="sociaux" ><img src="./img/linkedin.png" alt="linkedin" class="reseau"> </a>
+			<a href="https://github.com/Chauncey19" class="sociaux"><img src="./img/git.png" alt="git hub"  class="reseau" > </a>
+	</div>
+	
+
+	<div class="col-md-12 text-center">
+			<a href="" class="footer"> Politique de confidentialité </a>
+			<span>|</span>
+			<a href="" class="footer">Politique des cookies</a>
+			<span>|</span>
+			<a href="" class="footer"> Mentions légales </a>
+			
+
+	</div>
+
+	
+
+
+ </footer>
 
 
 		</div>
