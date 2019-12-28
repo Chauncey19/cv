@@ -1,0 +1,41 @@
+nav {
+	display:none;
+}
+
+.background2 {
+	height: 12rem;
+
+	padding: 1px;
+}
+
+.fleche {
+	display:none;
+}
+			  
+div#presentation.col-md-4.offset-md-4.p-2 {
+	margin-top: 0px;
+}
+
+
+.background3 {
+	height: 40rem;
+}
+		
+
+#portofolio {
+	display:none;
+}
+  
+.background4 {
+	display: none;
+}
+
+
+#contact {
+	display:none;
+}
+
+#bloc1 {
+	position: absolute;
+	top: 65%;
+}
