@@ -205,8 +205,10 @@ div.ContactPrint {
 	display: none;
 }
 		  
-
-		
+/* CSS pour page 404 */
+div.jumbotron.p-2.text-center>img {
+	width: 40%;
+}		
 
 @media screen and (max-width: 768px) {
 
