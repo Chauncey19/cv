@@ -210,7 +210,7 @@ div.jumbotron.p-2.text-center>img {
 	width: 40%;
 }		
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 800px) {
 
 	div.background1 {
 	height: 65rem;
