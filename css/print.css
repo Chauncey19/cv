@@ -1,0 +1,35 @@
+/* CSS impression*/
+
+div.background1, div.background2 {
+	background-attachment: local;
+}
+
+div.background1 {
+	height: 12rem;
+	padding: 1px;	
+}
+
+div.background2 {
+	height: 45rem;
+}
+				  
+div.col-md-4.offset-md-4.p-2 {
+	margin-top: 0px;
+}
+
+div.h-50.row.mr-0, div.background3, div.row.h-100.mr-0.ml-4.mt-2, div.fleche, nav   {
+	display:none;
+}
+  
+div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark {
+	position: absolute;
+	top: 50rem;
+}
+
+div.row.justify-content-center.pt-1>h5, div.row.justify-content-center>p {
+margin-bottom: 4px;
+}
+
+div.ContactPrint {
+	display: initial;
+}

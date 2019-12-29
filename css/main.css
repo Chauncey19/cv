@@ -1,0 +1,261 @@
+/* CSS mise en page générale */
+
+html {
+	cursor: auto;
+	scroll-behavior: smooth;
+}
+
+div.container-fluid {
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+}
+
+div.background1, div.background2, div.background3 {
+	color: white;
+	font-size: 18px;
+	font-family: Symbol, sans-serif;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.background1 {
+	padding-top: 6rem;
+	background-image: url("../img/background1.jpg");
+	height: 65rem;
+}
+
+div.background2 {		
+	padding-top: 6rem;
+	background-image: url("../img/background2.jpg");
+	height: 140rem;
+}
+
+div.background3 {
+	text-decoration: none;
+	background-image: url("../img/background3.jpg");
+	height: 10rem;		
+}
+
+/* CSS background1 */
+
+div.col-md-4.offset-md-4.p-2 {
+	margin-top: 20rem;
+}
+
+/* Animation affichage nom */
+
+div.col-md-4.offset-md-4.p-2>p{
+	padding:2rem;
+	font-size: 1.6em;
+	background: black;
+	animation-duration: 3s;
+	animation-name: animNom;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode:forwards;
+	}
+					 
+@keyframes animNom {
+	from {
+	opacity: 0;
+	}
+			  
+	to {
+	opacity: 1;			
+	}
+ }
+			
+		
+div.fleche {
+text-align: center;
+margin-top: 11%;
+}
+
+/* Animation variation taille fleche */
+
+a img.flechette {
+width: 5%;
+animation-duration: 2s;
+animation-name: AnimeFleche;
+animation-iteration-count: infinite;
+}
+		
+@keyframes AnimeFleche {
+	from {			 
+	width: 5%;					
+	}
+			  
+	to {		
+	width: 6%;			  
+	}
+}
+
+p img.rounded-circle {
+	width: 50%;
+}
+
+h5 {
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+/* CSS background2 */
+
+/* Animation souris border blanc */
+
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark:hover, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark:hover, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center:hover {
+	box-shadow: inset 0 0 0 1rem #f8fcff;
+}
+	
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center {
+border-radius:5%;
+}
+
+/* Animation affichage competences et diplomes */
+
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark>div.row, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>div.row {		
+animation-duration: 7s;
+animation-name: animCompetences;
+animation-fill-mode: forwards;
+}
+
+@keyframes animCompetences {
+	from {				 
+	opacity:0;
+	}
+				  
+	to {
+	opacity: 1;	  
+	}
+}
+
+p img.imgWeb{
+	width:45%;
+}
+
+ p img.imgJava, p img.imgUML{
+	width:18%;
+}
+
+p img.imgC, p img.imgBordeaux, p img.imgEncpb, p img.imgLef{
+	width:13%;
+}
+
+p img.imgBootstrap, p img.imgJavaEE, p img.imgAgile,  p img.imgSQL, p img.imgOracle{
+	width:20%;
+}
+
+p img.imgASP{
+	width:25%;
+
+}
+
+h6+p>img {
+	margin-right: 4%;
+}
+
+
+div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>h5 {
+	text-align: center;
+}
+
+div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>div {
+	padding-left:4%;
+	font-weight: bold;
+}
+
+
+div.row h6 {
+margin-left: 5%;
+font-weight: bold;
+margin-bottom: 2%;
+}
+
+div>img.d-block {
+height: 30rem;
+}
+	 
+
+/* CSS background3 */
+
+div a.footer {
+color: white;
+font-size: 18px;
+font-family: Symbol, sans-serif;
+text-decoration: none;
+}
+
+div a.footer:hover {
+text-decoration: none;
+}
+
+div a.sociaux {
+	padding-right: 2%;
+	padding-left:2%;
+}
+
+a img.reseau {
+	width: 4%;
+}
+
+/* HTML que pour l'impression */
+div.ContactPrint {
+	display: none;
+}
+		  
+
+		
+
+@media screen and (max-width: 768px) {
+
+	div.background1 {
+	height: 65rem;
+	}
+			
+	div.background2 {
+	height: 150rem;
+	}
+			
+	div.background3 {			
+	padding-top: 1rem;
+	height: 15rem;							
+	}
+			
+	div.col-md-4.offset-md-4.p-2  {
+	margin-top: 10rem;		
+	}
+					
+	div.fleche {
+	text-align: center;
+	margin-top: 35%;					
+	}
+
+	a img.flechette {
+	animation-name: AnimeFleche;
+	}
+
+	@keyframes AnimeFleche {
+		from {				 
+		width: 5%;			
+		}
+				  
+		to {
+		width: 13%;			  
+		}
+	}
+		   
+	div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center {
+	border-radius:5%;
+	margin-left: 3%;	
+	}
+
+	a img.reseau {
+		width: 8%;
+	}	
+}
+  
+  
+
+
