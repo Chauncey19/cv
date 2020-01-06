@@ -38,6 +38,11 @@ div.background3 {
 	height: 10rem;		
 }
 
+/* CSS navbar */
+input.form-control.mr-sm-2 {
+	width: 50%;
+}
+
 /* CSS background1 */
 
 div.col-md-4.offset-md-4.p-2 {
@@ -210,7 +215,7 @@ div.jumbotron.p-2.text-center>img {
 	width: 40%;
 }		
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
 
 	div.background1 {
 	height: 65rem;

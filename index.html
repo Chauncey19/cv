@@ -231,18 +231,18 @@
 				<div class="row">
 					<div class="col-md-6 text-left">
 						<label for="Nom">Nom :</label>
-						<input type="text" id="Nom" required class="form-control" placeholder="Nom">
+						<input type="text" id="Nom" required class="form-control" placeholder="Nom" minlength="2" >
 					</div>
 					<div class="col-md-6 text-left">
 						<label for="Prénom"> Prénom :</label>
-						<input type="text" id="Prénom" required class="form-control" placeholder="Prénom">
+						<input type="text" id="Prénom" required class="form-control" placeholder="Prénom" minlength="2" >
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-6 mt-1 text-left">
 						<label for="tel"> Tél :</label>
-						<input type="tel" id="tel" required class="form-control" placeholder="Numéro de téléphone">
+						<input type="tel" id="tel" required class="form-control" placeholder="Numéro de téléphone" pattern="[0-9]{10}">
 
 					</div>
 
@@ -257,7 +257,7 @@
 				<div class="row">
 					<div class="col-md-12 mt-1 text-left">
 						<label for="objet"> Objet :</label>
-						<input type="text" id="objet" class="form-control" placeholder="text">
+						<input type="text" id="objet" class="form-control" placeholder="Text">
 
 					</div>
 				</div>
