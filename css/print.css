@@ -5,25 +5,25 @@ div.background1, div.background2 {
 }
 
 div.background1 {
-	height: 12rem;
+	height: 11rem;
 	padding: 1px;	
 }
 
 div.background2 {
-	height: 45rem;
+	height: 108rem;
 }
 				  
 div.col-md-4.offset-md-4.p-2 {
 	margin-top: 0px;
 }
 
-div.h-50.row.mr-0, div.background3, div.row.h-100.mr-0.ml-4.mt-2, div.fleche, nav   {
+div.h-25.row.mr-0, div.background3, div.row.h-100.mr-0.ml-4.mt-2, div.fleche, nav   {
 	display:none;
 }
   
 div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark {
 	position: absolute;
-	top: 50rem;
+	top: 47rem;
 }
 
 div.row.justify-content-center.pt-1>h5, div.row.justify-content-center>p {
@@ -33,3 +33,11 @@ margin-bottom: 4px;
 div.ContactPrint {
 	display: initial;
 }
+
+div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark{
+
+position: absolute;
+top: 94rem;
+left: 13rem;
+}
+

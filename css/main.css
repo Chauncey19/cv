@@ -1,5 +1,6 @@
 /* CSS mise en page générale */
 
+
 html {
 	cursor: auto;
 	scroll-behavior: smooth;
@@ -14,7 +15,6 @@ div.container-fluid {
 div.background1, div.background2, div.background3 {
 	color: white;
 	font-size: 18px;
-	font-family: Symbol, sans-serif;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -29,7 +29,7 @@ div.background1 {
 div.background2 {		
 	padding-top: 6rem;
 	background-image: url("../img/background2.jpg");
-	height: 140rem;
+	height: 180rem;
 }
 
 div.background3 {
@@ -110,31 +110,19 @@ h5 {
 
 /* Animation souris border blanc */
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark:hover, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark:hover, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center:hover {
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark:hover, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark:hover, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center:hover, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark:hover {
 	box-shadow: inset 0 0 0 1rem #f8fcff;
+	transform: scale(1.2); 
 }
 	
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center {
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark {
 border-radius:5%;
+transition : all 1s ease-in;
 }
 
-/* Animation affichage competences et diplomes */
+/* Animation affichage competences et diplomes et expériences */
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark>div.row, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>div.row {		
-animation-duration: 7s;
-animation-name: animCompetences;
-animation-fill-mode: forwards;
-}
 
-@keyframes animCompetences {
-	from {				 
-	opacity:0;
-	}
-				  
-	to {
-	opacity: 1;	  
-	}
-}
 
 p img.imgWeb{
 	width:45%;
@@ -166,35 +154,112 @@ div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>h5 {
 	text-align: center;
 }
 
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6{
+	color: rgb(87, 187, 87);
+}
+
 div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>div {
 	padding-left:4%;
 	font-weight: bold;
 }
 
 
-div.row h6 {
-margin-left: 5%;
-font-weight: bold;
-margin-bottom: 2%;
+
+
+ /*	CSS diplome et expérience*/
+
+ div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row h6 {
+	margin-left: 5%;
+	font-weight: bold;
+	margin-bottom: 2%;	
 }
+	
+div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark h5 {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+	
+div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark h6 {
+	color: rgb(87, 187, 87);
+	font-weight: bold;
+	margin-bottom: 2%;
+	width: 100%;
+
+}
+
+div.timeline {
+	position: relative;
+  }
+
+div.timeline:before {
+	content: ' ';
+	background: #2a9b62;
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	width: 2px;
+	height: 100%;
+	z-index: 400;
+}
+
+div.timeline > div.row {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-left: 14%;
+}
+
+
+div.timeline > div.row p {
+	color: rgb(87, 187, 87);
+	margin-bottom: 0%;
+	font-size: 1rem;
+}
+
+div.row>p> img+span+a {
+
+	color: rgb(87, 187, 87);
+	
+}
+ 
+div.timeline > div.row:before {
+	content: ' ';
+	background: white;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid rgb(87, 187, 87);
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
+}
+	
 
 div>img.d-block {
 height: 30rem;
 }
 	 
+/* Resize image carousel */
+div#carouselExampleIndicators {
+	height: 80%;
+	width: 60%;
+	overflow: hidden;
+	margin-left: 20%;
+}
+
+div.carousel-item>p>a {
+	color: rgb(87, 187, 87);
+}
 
 /* CSS background3 */
 
-div a.footer {
-color: white;
-font-size: 18px;
-font-family: Symbol, sans-serif;
-text-decoration: none;
+div a.footer, div a.footer:hover {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
 }
 
-div a.footer:hover {
-text-decoration: none;
-}
 
 div a.sociaux {
 	padding-right: 2%;
@@ -222,7 +287,7 @@ div.jumbotron.p-2.text-center>img {
 	}
 			
 	div.background2 {
-	height: 150rem;
+	height: 180rem;
 	}
 			
 	div.background3 {			
@@ -253,14 +318,22 @@ div.jumbotron.p-2.text-center>img {
 		}
 	}
 		   
-	div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center {
+	div.col-md-4.offset-md-2.p-4.text-center.bg-dark:hover, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark:hover, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center:hover, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark:hover {
+		box-shadow: inset 0 0 0 1rem #f8fcff;
+		transform: scale(1.0); 
+	}
+		
+	div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark {
 	border-radius:5%;
-	margin-left: 3%;	
+	transition : all 1s ease-in;
+	margin-left: 3%;
 	}
 
 	a img.reseau {
 		width: 8%;
 	}	
+
+ 
 }
   
   
