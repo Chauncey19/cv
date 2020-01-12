@@ -27,7 +27,7 @@ div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark {
 }
 
 div.row.justify-content-center.pt-1>h5, div.row.justify-content-center>p {
-margin-bottom: 4px;
+	margin-bottom: 4px;
 }
 
 div.ContactPrint {
@@ -36,8 +36,9 @@ div.ContactPrint {
 
 div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark{
 
-position: absolute;
-top: 94rem;
-left: 13rem;
+	position: absolute;
+	top: 94rem;
+	left: 13rem;
 }
+
 

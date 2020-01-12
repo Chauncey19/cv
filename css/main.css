@@ -1,6 +1,5 @@
 /* CSS mise en page générale */
 
-
 html {
 	cursor: auto;
 	scroll-behavior: smooth;
@@ -74,17 +73,17 @@ div.col-md-4.offset-md-4.p-2>p{
 			
 		
 div.fleche {
-text-align: center;
-margin-top: 11%;
+	text-align: center;
+	margin-top: 11%;
 }
 
 /* Animation variation taille fleche */
 
 a img.flechette {
-width: 5%;
-animation-duration: 2s;
-animation-name: AnimeFleche;
-animation-iteration-count: infinite;
+	width: 5%;
+	animation-duration: 2s;
+	animation-name: AnimeFleche;
+	animation-iteration-count: infinite;
 }
 		
 @keyframes AnimeFleche {
@@ -116,37 +115,37 @@ div.col-md-4.offset-md-2.p-4.text-center.bg-dark:hover, div.col-md-4.offset-md-7
 }
 	
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark {
-border-radius:5%;
-transition : all 1s ease-in;
+	border-radius:5%;
+	transition : all 1s ease-in;
 }
 
-/* Animation affichage competences et diplomes et expériences */
+/* CSS competences */
 
-
-
-p img.imgWeb{
-	width:45%;
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a{
+	margin-right:2%;
+	padding: 2%;
 }
 
- p img.imgJava, p img.imgUML{
-	width:18%;
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(1), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(3), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(5) {
+	color:white;
+	background: #2fbe77;
+	
 }
 
-p img.imgC, p img.imgBordeaux, p img.imgEncpb, p img.imgLef{
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(2), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(4)  {
+	background: white;
+	color: #2fbe77;
+}
+
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+p{
+	width: 100%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	
+}
+
+p img.imgBordeaux, p img.imgEncpb, p img.imgLef{
 	width:13%;
-}
-
-p img.imgBootstrap, p img.imgJavaEE, p img.imgAgile,  p img.imgSQL, p img.imgOracle{
-	width:20%;
-}
-
-p img.imgASP{
-	width:25%;
-
-}
-
-h6+p>img {
-	margin-right: 4%;
 }
 
 
@@ -155,16 +154,14 @@ div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>h5 {
 }
 
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6{
-	color: rgb(87, 187, 87);
+	color: #2fbe77;
+	width: 100%;
 }
 
 div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark>div {
 	padding-left:4%;
 	font-weight: bold;
 }
-
-
-
 
  /*	CSS diplome et expérience*/
 
@@ -181,7 +178,7 @@ div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark h5 {
 }
 	
 div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark h6 {
-	color: rgb(87, 187, 87);
+	color: #2fbe77;
 	font-weight: bold;
 	margin-bottom: 2%;
 	width: 100%;
@@ -194,7 +191,7 @@ div.timeline {
 
 div.timeline:before {
 	content: ' ';
-	background: #2a9b62;
+	background: #2fbe77;
 	display: inline-block;
 	position: absolute;
 	left: 20px;
@@ -211,14 +208,14 @@ div.timeline > div.row {
 
 
 div.timeline > div.row p {
-	color: rgb(87, 187, 87);
+	color: #2fbe77;
 	margin-bottom: 0%;
 	font-size: 1rem;
 }
 
 div.row>p> img+span+a {
 
-	color: rgb(87, 187, 87);
+	color: #2fbe77;
 	
 }
  
@@ -228,7 +225,7 @@ div.timeline > div.row:before {
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid rgb(87, 187, 87);
+	border: 3px solid #2fbe77;
 	left: 10px;
 	width: 20px;
 	height: 20px;
@@ -249,7 +246,7 @@ div#carouselExampleIndicators {
 }
 
 div.carousel-item>p>a {
-	color: rgb(87, 187, 87);
+	color: #2fbe77;
 }
 
 /* CSS background3 */
@@ -283,16 +280,16 @@ div.jumbotron.p-2.text-center>img {
 @media all and (max-width: 768px) {
 
 	div.background1 {
-	height: 65rem;
+		height: 65rem;
 	}
 			
 	div.background2 {
-	height: 180rem;
+		height: 180rem;
 	}
 			
 	div.background3 {			
-	padding-top: 1rem;
-	height: 15rem;							
+		padding-top: 1rem;
+		height: 15rem;							
 	}
 			
 	div.col-md-4.offset-md-4.p-2  {
@@ -300,12 +297,12 @@ div.jumbotron.p-2.text-center>img {
 	}
 					
 	div.fleche {
-	text-align: center;
-	margin-top: 35%;					
+		text-align: center;
+		margin-top: 35%;					
 	}
 
 	a img.flechette {
-	animation-name: AnimeFleche;
+		animation-name: AnimeFleche;
 	}
 
 	@keyframes AnimeFleche {
@@ -324,9 +321,9 @@ div.jumbotron.p-2.text-center>img {
 	}
 		
 	div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.mb-5.p-4.bg-dark, div.col-md-6.offset-md-3.mt-2.mb-2.p-4.h-75.bg-dark.text-center, div.col-md-4.offset-md-2.mt-5.p-4.mb-5.bg-dark {
-	border-radius:5%;
-	transition : all 1s ease-in;
-	margin-left: 3%;
+		border-radius:5%;
+		transition : all 1s ease-in;
+		margin-left: 3%;
 	}
 
 	a img.reseau {
