@@ -121,28 +121,46 @@ div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.
 
 /* CSS competences */
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a{
-	margin-right:2%;
-	padding: 2%;
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row{
+	justify-content: center;
+	width: 100%;
+	margin: 0%;
+
 }
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(1), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(3), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(5) {
-	color:white;
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(1), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(3), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(5)   {
 	background: #2fbe77;
-	
 }
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(2), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>p>a:nth-child(4)  {
-	background: white;
+div.row>p>a.vert  {
+	text-decoration: none;
+	color:white;
+
+}
+
+div.row>p>a.blanc  {
+	text-decoration: none;
 	color: #2fbe77;
 }
 
-div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+p{
-	width: 100%;
-	margin-top:3%;
-	margin-bottom: 6%;
+
+ div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(2), div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(4) {
+	background: white;
+	
+} 
+
+div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p{
+	display: inline-flex;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-left:0; 
+	padding: 3%;
+	margin-right: 3%;
+	
 	
 }
+
+
 
 p img.imgBordeaux, p img.imgEncpb, p img.imgLef{
 	width:13%;
