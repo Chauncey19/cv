@@ -124,7 +124,7 @@ div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row{
 	justify-content: center;
 	width: 100%;
-	margin:0;
+	margin-left:2%;
 
 }
 
@@ -154,7 +154,7 @@ div.row>p>a.blanc  {
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p{
 	display: inline-flex;
 	flex-wrap: wrap;
-	margin-left:0; 
+	
 	margin-right: 4%;
 	
 	
