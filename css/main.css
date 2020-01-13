@@ -124,7 +124,7 @@ div.col-md-4.offset-md-2.p-4.text-center.bg-dark, div.col-md-4.offset-md-7.mt-4.
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row{
 	justify-content: center;
 	width: 100%;
-	margin: 0%;
+	margin:0;
 
 }
 
@@ -135,12 +135,14 @@ div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p:nth-child(
 div.row>p>a.vert  {
 	text-decoration: none;
 	color:white;
+	padding: 1rem;
 
 }
 
 div.row>p>a.blanc  {
 	text-decoration: none;
 	color: #2fbe77;
+	padding: 1rem;
 }
 
 
@@ -151,11 +153,10 @@ div.row>p>a.blanc  {
 
 div.col-md-4.offset-md-2.p-4.text-center.bg-dark div.row>h6+div.row>p{
 	display: inline-flex;
-	align-content: center;
 	flex-wrap: wrap;
 	margin-left:0; 
-	padding: 3%;
-	margin-right: 3%;
+	margin-right: 4%;
+	
 	
 	
 }
